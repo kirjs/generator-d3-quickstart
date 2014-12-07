@@ -1,0 +1,21 @@
+{
+    "name": "generator-d3-try",
+    "version": "0.1.0",
+    "description": "A yeoman generator for trying things with d3 ",
+    "author": {
+        "name": "Kirill Cherkashin",
+        "email": "kirill@kcherkashin.org",
+        "url": "https://github.com/kirjs"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "yeoman-generator": "^0.18.3"
+    },
+
+    "keywords": [
+        "yeoman-generator",
+        "d3",
+        "quick start",
+        "try"
+    ]
+}
