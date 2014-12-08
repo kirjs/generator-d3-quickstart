@@ -1,5 +1,6 @@
-# generator-shower [![Build Status](https://secure.travis-ci.org/kirjs/generator-shower.png?branch=master)](https://travis-ci.org/kcherkashin/generator-shower)
-This is a [Yeoman](http://yeoman.io) generator for the [Shower presentation engine](http://shwr.me)
+# generator-d3-try 
+This is a [Yeoman](http://yeoman.io) generator for the [d3.js](http://d3.js).
+It has the minimum skeleton necessary to start trying things with d3.js
 
 ## Getting Started
 
@@ -19,11 +20,11 @@ To install generator-d3-try from npm, run:
 $ npm install -g generator-d3-try
 ```
 
-### Generating Shower presentation
+### Generating an empty d3 project
 Navigate into a folder where you want your presentation
 
 ```
-$ yo d3-try
+$ yo d3-try project-name
 ```
 
 
