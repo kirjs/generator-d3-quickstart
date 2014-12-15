@@ -1,1 +1,1 @@
-d3.select('svg');
+var svg = d3.select('svg');
