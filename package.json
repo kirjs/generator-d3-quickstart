@@ -1,5 +1,5 @@
 {
-  "name": "generator-d3-try",
+  "name": "generator-d3-quickstart",
   "version": "0.1.3",
   "description": "A yeoman generator for trying things with d3 ",
   "author": {
