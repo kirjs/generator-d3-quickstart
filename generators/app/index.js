@@ -53,7 +53,8 @@ module.exports = generators.Base.extend({
             'index.html',
             'gulpfile.js',
             'package.json',
-            'js/index.js'
+            'js/index.js',
+            'css/style.css'
         ], {
             appname: this.appname
         });
