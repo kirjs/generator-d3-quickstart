@@ -1,6 +1,6 @@
-# generator-d3-try 
+# generator-d3-quickstart
 This is a [Yeoman](http://yeoman.io) generator for the [d3.js](http://d3.js).
-It has the minimum skeleton necessary to start trying things with d3.js
+It has the minimum skeleton necessary to start with d3.js
 
 ## Getting Started
 
@@ -14,17 +14,17 @@ $ npm install -g yo
 
 ### Yeoman Generators
 
-To install generator-d3-try from npm, run:
+To install generator-d3-quickstart from npm, run:
 
 ```
-$ npm install -g generator-d3-try
+$ npm install -g generator-d3-quickstart
 ```
 
 ### Generating an empty d3 project
 Navigate into a folder where you want your presentation
 
 ```
-$ yo d3-try project-name
+$ yo d3-quickstart project-name
 ```
 
 
