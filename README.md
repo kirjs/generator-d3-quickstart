@@ -2,6 +2,14 @@
 This is a [Yeoman](http://yeoman.io) generator for the [d3.js](http://d3.js).
 It has the minimum skeleton necessary to start with d3.js
 
+This generator includes:
+
+* index.html - with svg
+* js/index.js - for the code 
+* css/style.css - for styling
+* gulpfile.js - currently only has browser-sync
+* package.json - d3 is installed via npm
+
 ## Getting Started
 
 ### Installing Yeoman?
