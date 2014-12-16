@@ -1,6 +1,6 @@
 {
   "name": "generator-d3-quickstart",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A yeoman generator for quick start d3 ",
   "author": {
     "name": "Kirill Cherkashin",
