@@ -1,17 +1,18 @@
 var generators = require('yeoman-generator');
+var path = require('path');
 
 
-function setUpCopy(generator) {
+function setUpCopy(generator, folder) {
+    folder = folder || '';
     return function copy(filename, context) {
-        console.log(context)
         if (generator._.isArray(filename)) {
-            filename.forEach(function( filename ){
-                copy( filename, context );
+            filename.forEach(function (filename) {
+                copy(filename, context);
             });
         } else {
             generator.fs.copyTpl(
                 generator.templatePath(filename),
-                generator.destinationPath(filename),
+                generator.destinationPath(path.join(folder, filename)),
                 context
             );
         }
@@ -46,7 +47,7 @@ module.exports = generators.Base.extend({
             }.bind(this));
         }
     },
-    app: function () {
+    writing: function () {
         var copy = setUpCopy(this, this.appname);
         copy([
             'index.html',
@@ -57,7 +58,8 @@ module.exports = generators.Base.extend({
             appname: this.appname
         });
     },
-    installDeps: function(){
+    install: function () {
+        process.chdir(this.appname);
         this.npmInstall();
     }
 });
