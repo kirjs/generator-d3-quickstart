@@ -15,7 +15,7 @@ This generator includes:
 
 ### Installing Yeoman?
 
-This generator required yeoman, it can be installed from npm:
+This generator requires yeoman, it can be installed from npm:
 
 ```
 $ npm install -g yo
