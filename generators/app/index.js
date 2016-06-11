@@ -54,7 +54,8 @@ module.exports = generators.Base.extend({
             'gulpfile.js',
             'package.json',
             'js/index.js',
-            'css/style.css'
+            'css/style.css',
+            '.gitignore'
         ], {
             appname: this.appname
         });
